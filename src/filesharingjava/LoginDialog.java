@@ -21,6 +21,8 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
+// Creates login window
+
 public class LoginDialog {
 	private final static String CrLf = "\r\n";
 	private static JFrame frame = null;
