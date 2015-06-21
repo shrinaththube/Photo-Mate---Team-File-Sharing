@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FilesharingJAVA_browser.jnlp">
+  <information>
+    <title>FilesharingJAVA</title>
+    <vendor>Shrinath</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FilesharingJAVA.jar" size="15504" download="eager" />
+    <jar href="lib/beansbinding-1.2.1.jar" size="631289" download="eager" />
+    <jar href="lib/commons-compress-1.5.jar" size="256241" download="eager" />
+    <jar href="lib/commons-net-3.3.jar" size="280983" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="filesharingjava.LoginDialog"  name="FilesharingJAVA" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
